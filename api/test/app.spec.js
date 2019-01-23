@@ -9,12 +9,6 @@ const {
 describe('App', () => {
   beforeAll(initResources);
 
-  it('Home page should return a message', async () => {
-    const res = await fetch('/');
-    expect(res.status).toEqual(200);
-    expect(await res.text()).toEqual('<p>Hello Boilerplate</p>');
-  });
-
   it('Healthz should return a JSON with status OK', async () => {
     const res = await fetch('/healthz');
     expect(res.status).toEqual(200);
