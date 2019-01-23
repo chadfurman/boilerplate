@@ -2,9 +2,9 @@
 
 This project uses many libraries, including:
 
-* [redux](https://redux.js.org/)
+* [Relay](http://facebook.github.io/relay)
 * [react router](https://github.com/ReactTraining/react-router)
-* [redux saga](https://github.com/redux-saga/redux-saga)
+* [React Relay Network Modern](https://github.com/relay-tools/react-relay-network-modern)
 
 It is also prepared to use
 [redux-cli](https://github.com/SpencerCDixon/redux-cli) so you can create new
